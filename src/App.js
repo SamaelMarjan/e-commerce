@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Newsletter from "./pages/Newsletter";
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Products />
       <Newsletter />
+      <Footer />
     </>
   );
 }
